@@ -1,0 +1,12 @@
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.deps.json
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.dll
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Persistencia.pdb
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Dominio.dll
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\bin\Debug\netstandard2.1\Mintic.App.Dominio.pdb
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csprojAssemblyReference.cache
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.AssemblyInfoInputs.cache
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.AssemblyInfo.cs
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.csproj.CopyComplete
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.dll
+D:\Documents\Ciclo3Mintic\ProyectoMintic\Mintic.App\Mintic.App.Persistencia\obj\Debug\netstandard2.1\Mintic.App.Persistencia.pdb
