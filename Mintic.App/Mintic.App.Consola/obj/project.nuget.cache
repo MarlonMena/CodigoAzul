@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ayoox3WGixrHJXKsiM3p+sKhlstIwg9KrokQ6wExDFBV0KWAsUQoAsiwfpI2kI4OKHK3XGu0agcytSa0ZwdHEA==",
+  "dgSpecHash": "zoJ9Xso7QIfcTzHYpzHwdQafH3BXZqdwl3fHgJ40JEfo2TKvQXB8+GPRb/4SefCGnEIgRuC7Q4Y7qcABJkSuIg==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Consola\\Misiontic.App.Consola.csproj",
+  "projectFilePath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\ProyectoMinTic\\Mintic.App\\Mintic.App.Consola\\Mintic.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

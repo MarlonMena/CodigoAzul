@@ -1,2 +1,2 @@
-# CodigoAzul
-Desarrollo de sistema para registro de estudiantes y manejo de notas asignadas
+# ProyectoMinTic
+Proyecto Desarrollo de Software Ciclo 3 MisionTic Universidad de Caldas 

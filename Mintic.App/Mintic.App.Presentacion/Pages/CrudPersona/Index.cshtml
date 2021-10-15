@@ -1,0 +1,104 @@
+@page
+@model Mintic.App.Presentacion.Pages.CrudPersona.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Crear Nueva Persona</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Apellidos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Edad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Cedula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Celular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Municipio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Departamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Fijo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].Usuario)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Persona) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Edad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cedula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Municipio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Departamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fijo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+            
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

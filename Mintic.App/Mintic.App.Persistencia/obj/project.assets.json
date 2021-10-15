@@ -7268,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\Luis\\Desktop\\marlon\\ProyectoMinTic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
       "projectName": "Mintic.App.Persistencia",
-      "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
+      "projectPath": "C:\\Users\\Luis\\Desktop\\marlon\\ProyectoMinTic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\Luis\\Desktop\\marlon\\ProyectoMinTic\\Mintic.App\\Mintic.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
-              "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
+            "C:\\Users\\Luis\\Desktop\\marlon\\ProyectoMinTic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Luis\\Desktop\\marlon\\ProyectoMinTic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
             }
           }
         }
@@ -7337,7 +7337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
       }
     }
   }

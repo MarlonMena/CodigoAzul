@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Consola\\Misiontic.App.Consola.csproj",
-      "projectName": "Misiontic.App.Consola",
-      "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Consola\\Misiontic.App.Consola.csproj",
+      "projectUniqueName": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\ProyectoMinTic\\Mintic.App\\Mintic.App.Consola\\Mintic.App.Consola.csproj",
+      "projectName": "Mintic.App.Consola",
+      "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\ProyectoMinTic\\Mintic.App\\Mintic.App.Consola\\Mintic.App.Consola.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Consola\\obj\\",
+      "outputPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\ProyectoMinTic\\Mintic.App\\Mintic.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5820,11 +5820,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
-              "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
+            "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\ProyectoMinTic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj": {
+              "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\ProyectoMinTic\\Mintic.App\\Mintic.App.Dominio\\Mintic.App.Dominio.csproj"
             },
-            "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj": {
-              "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj"
+            "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\ProyectoMinTic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj": {
+              "projectPath": "D:\\Documents\\Ciclo3Mintic\\ProyectoMintic\\ProyectoMinTic\\Mintic.App\\Mintic.App.Persistencia\\Mintic.App.Persistencia.csproj"
             }
           }
         }

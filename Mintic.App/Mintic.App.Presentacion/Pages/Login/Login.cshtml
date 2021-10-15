@@ -1,0 +1,28 @@
+﻿@page
+@model Mintic.App.Presentacion.LoginModel
+@{
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+
+            <div class="form-group">
+                <label class="control-label">Usuario:</label>
+                <input type="text" class="form-control" asp-for="@Model.Usuario"></input>
+                <span class="text-danger"> @Model.MensajeUsuario</span>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Contraseña:</label>
+                <input type="password" class="form-control" asp-for="@Model.Password"></input>
+                <span class="text-danger"> @Model.MensajePassword</span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Ingresar" class="btn btn-primary"></input>
+            </div>
+        </form>
+    </div>
+</div>

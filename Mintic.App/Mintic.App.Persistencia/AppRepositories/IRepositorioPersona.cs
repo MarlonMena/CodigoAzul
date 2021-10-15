@@ -10,9 +10,9 @@ namespace Mintic.App.Persistencia.AppRepositories
         
         public int guardarPersona(Persona persona);
 
-         public void eliminarPersona(int Id);
+        public void eliminarPersona(int Id);
 
-         public void actualizarPersona(Persona persona);
+        public void actualizarPersona(Persona persona);
 
          
     }

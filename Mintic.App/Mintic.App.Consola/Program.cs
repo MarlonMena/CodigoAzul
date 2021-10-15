@@ -3,65 +3,133 @@ using Mintic.App.Dominio;
 using Mintic.App.Persistencia.AppRepositories;
 using System.Linq;
 
-namespace Misiontic.App.Consola
+namespace Mintic.App.Consola
 {
     class Program
     {
         static void Main(string[] args)
         {
             Conexion conexion = new Conexion();
+            Rol r1 = new Rol(){
+                NombreRol = "Tutor",
+                CodigoRol = "T-001"
+            };
+            conexion.Roles.Add(r1);
+            conexion.SaveChanges();
 
-            Rol r = conexion.Roles.First(r => r.Id ==1);
-            
-            Estudiante e = new Estudiante();
-            e.Nombres = "Soy Angel el Estudiante";
-            e.Apellidos = "Marquez Perezz";
-            e.Cedula = "1000002";
-            /*e.RolPersona = r;*/
+            Persona p1 = new Persona(){
+                Nombres = "Memo",
+                Apellidos = "Baquero",
+                RolPersona = r1
+            };
+            conexion.Personas.Add(p1);
+            conexion.SaveChanges();
+
+            Rol r2 = new Rol(){
+                NombreRol = "Formador",
+                CodigoRol = "F-002"
+            };
+            conexion.Roles.Add(r2);
+            conexion.SaveChanges();
+
+            Persona p2 = new Persona(){
+                Nombres = "Pepe",
+                Apellidos = "Eraso",
+                RolPersona = r2
+            };
+            conexion.Personas.Add(p2);
+            conexion.SaveChanges();
+
+
+            Grupo g = new Grupo(){
+                Tutor = p1,
+                Formador = p2
+            };
+            conexion.Grupos.Add(g);
+            conexion.SaveChanges();
+
+            Estudiante e = new Estudiante(){
+                Nombres = "Soy Estudiante",
+                GrupoEstudiante = g
+            };
             conexion.Estudiantes.Add(e);
             conexion.SaveChanges();
-            System.Console.WriteLine("Persona ingresada con Id: "+e.Id);
+
+
+
+            /*RepositorioPersona repositorioPersona = new RepositorioPersona();
+            repositorioPersona.consultarTodos();
+            repositorioPersona.guardarPersona(new Persona ());
+            repositorioPersona.eliminarPersona(4);
+            repositorioPersona.actualizarPersona(new Persona());
+            */
+            
+            
+            /*Conexion conexion = new Conexion();
+            int id = 5;
+            Persona persona = conexion.Personas.First(p => p.Id == id);
+            persona.Nombres = "Pascualito";
+            conexion.SaveChanges();
+            */
 
 
 
             
-            /*RepositorioPersona repositorioPersona = new RepositorioPersona();
-            repositorioPersona.consultarTodos();
-            repositorioPersona.guardarPersona();
-            repositorioPersona.eliminarPersona(4);
-            repositorioPersona.actualizarPersona(new Persona());*/
-
-
-
         }
 
 
 
-        /*public void codigosPersona(string[] args)
+
+
+        public void codigosPersona()
         {
-            Conexion conexion = new Conexion();
-
-            Rol r = new Rol();
-            r.NombreRol ="Formador";
-            r.CodigoRol ="F-001";
-            conexion.Roles.Add(r);
+            //editar
+            /*Conexion conexion = new Conexion();
+            Rol rol = new Rol();
+            rol.NombreRol = "Tutor";
+            rol.CodigoRol = "T-002";
+            conexion.Roles.Add(rol);
             conexion.SaveChanges();
-            System.Console.WriteLine("Rol guardado con el Id: "+ r.Id);
 
-            Persona p = new Persona();
-            p.Nombres = "Miguel Angel";
-            p.Apellidos = "Ortiz Velez";
-            p.Cedula = "109087431";
-            p.Email = "miguel@angel.com";
-            p.Celular = "3002132211";
-            p.Municipio = "Medellin";
-            p.Departamento = "Antioquia";
-            p.Fijo = "2145532";
-            p.Direccion = "Calle 3 # 12 B";
-            p.RolPersona = r;
-            conexion.Personas.Add(p);
+            Persona persona = new Persona();
+            persona.Nombres = "Miguelito";
+            persona.Apellidos = "Apellidos de Miguelito";
+            persona.Email = "miguelito@miguelito";
+            persona.RolPersona = rol;
+            conexion.Personas.Add(persona);
             conexion.SaveChanges();
-            System.Console.WriteLine("Persona guardada con el Id: " + p.Id);
-        }*/
+            */
+
+
+
+            //eliminar
+
+            /*Conexion conexion = new Conexion();
+            int id = 4;
+            Persona persona = conexion.Personas.First(p => p.Id == id);
+            System.Console.WriteLine(persona.Nombres);
+            conexion.Personas.Remove(persona);
+            conexion.SaveChanges();
+            */
+
+
+            //Crear
+
+            /*Conexion conexion = new Conexion();
+            Persona persona = new Persona();
+            persona.Nombres = "Pascual";
+            persona.Apellidos ="Bravo";
+            persona.Cedula = "qwer";
+            persona.Email = "pascual@bbravo.com";
+            conexion.Personas.Add(persona);
+            conexion.SaveChanges();
+            */
+
+        }
+
+            
+            
+
+        
     }
 }

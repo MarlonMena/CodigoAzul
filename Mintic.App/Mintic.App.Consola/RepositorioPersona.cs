@@ -1,6 +1,6 @@
-/*using Mintic.App.Dominio;
+/*using Mintic.App.Persistencia.AppRepositories;
+using Mintic.App.Dominio;
 using System.Collections.Generic;
-using Mintic.App.Persistencia.AppRepositories;
 using System.Linq;
 
 namespace Mintic.App.Consola
@@ -10,27 +10,24 @@ namespace Mintic.App.Consola
         public List<Persona> consultarTodos(){
             Conexion conexion = new Conexion();
             List<Persona> listaPersonas;
-            return listaPersonas;
-
+            return  listaPersonas;
         }
-            
+
+
         public int guardarPersona(Persona persona){
             Conexion conexion = new Conexion();
             conexion.Personas.Add(persona);
             conexion.SaveChanges();
             return persona.Id;
-
         }
 
-        public void eliminarPersona(int Id){
+         public void eliminarPersona(int Id){
             Conexion conexion = new Conexion();
             Persona persona = conexion.Personas.First(p => p.Id == Id);
             conexion.Personas.Remove(persona);
-            conexion.SaveChanges();
+         }
 
-        }
-
-        public void actualizarPersona(Persona persona){
+         public void actualizarPersona(Persona persona){
             Conexion conexion = new Conexion();
             Persona p = conexion.Personas.First(p => p.Id == persona.Id);
             p.Nombres = persona.Nombres;
@@ -46,14 +43,12 @@ namespace Mintic.App.Consola
             p.Fijo = persona.Fijo;
             p.Direccion = persona.Direccion;
             conexion.SaveChanges();
+         }
 
 
 
-        }
-
-
-
+    
         
     }
-}*/
-
+}
+*/
